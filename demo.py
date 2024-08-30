@@ -4,10 +4,10 @@ x= [[181,80,44],[177,70,43],[160,60,38],[154,54,37],[166,65,40],[190,90,47],[175
 
 y =["male","female","female","female","male","male","male","female","male","female","male"]
 
-clf = tree.DecisionTreeClassifier()
+clfa = tree.DecisionTreeClassifier()
 
-clf = clf.fit(x,y)
+clfa = clfa.fit(x,y)
 
-predictL = clf.predict([[190,70,43]])
+predictL = clfa.predict([[190,70,43]])
 
 print(predictL)
